@@ -25,6 +25,7 @@
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <h2>Would you mind giving us some feedback?</h2>
       <h3>What products would you like to find?</h3>
+      <div class="feedback-items-container">
       <div class="feedback-items">
       <input type="checkbox" name="productos-de-preferencia" id="bookmarks">
       <label for="bookmarks">Bookmarks</label>
@@ -42,8 +43,12 @@
       <label for="bookmarks">Zodiac Signs</label>
       </div>
       <div class="feedback-items">
-      <input type="text" name="productos-de-preferencia" id="other-products" placeholder="Other?">
+      <input class="text-input-feedback" type="text" name="productos-de-preferencia" id="other-products" placeholder="Other?">
       <label for="other-productos">Other Product </label>
+      </div>
+      <div class="button-submit">
+        <button type="submit">Submit info</button>
+      </div>
       </div>
     </form>
     <section class="section-1" id="section-1">
