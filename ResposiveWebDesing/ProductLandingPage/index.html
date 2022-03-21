@@ -14,13 +14,38 @@
     <h1>GOTja</h1>
     </div>
     <nav id="nav-bar">
-      <li class="nav-link"><a href="#section-1">Link 1</a></li>
-      <li class="nav-link"><a href="#section-2">Link 2</a></li>
-      <li class="nav-link"><a href="#section-3">Link 3</a></li>
+      <ul>
+        <li><a class="nav-link" href="#section-1">Link 1</a></li>
+        <li><a class="nav-link" href="#section-2">Link 2</a></li>
+        <li><a class="nav-link" href="#section-3">Link 3</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <form id="form" action="https://www.freecodecamp.com/email-submit"></form>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>Would you mind giving us some feedback?</h2>
+      <h3>What products would you like to find?</h3>
+      <div class="feedback-items">
+      <input type="checkbox" name="productos-de-preferencia" id="bookmarks">
+      <label for="bookmarks">Bookmarks</label>
+      </div>
+      <div class="feedback-items">
+      <input type="checkbox" name="productos-de-preferencia" id="keychains">
+      <label for="bookmarks">Keychains</label>
+      </div>
+      <div class="feedback-items">
+      <input type="checkbox" name="productos-de-preferencia" id="cupholders">
+      <label for="bookmarks">Cup Holders</label>
+      </div>
+      <div class="feedback-items">
+      <input type="checkbox" name="productos-de-preferencia" id="zodiacsigns">
+      <label for="bookmarks">Zodiac Signs</label>
+      </div>
+      <div class="feedback-items">
+      <input type="text" name="productos-de-preferencia" id="other-products" placeholder="Other?">
+      <label for="other-productos">Other Product </label>
+      </div>
+    </form>
     <section class="section-1" id="section-1">
       <h1>SECTION  1</h1>
     </section>
